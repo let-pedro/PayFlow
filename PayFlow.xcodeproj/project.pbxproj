@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057E0DB682EDE1377B8B5C69 /* Pods_PayFlowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A30ED2C7868B783C6C9A7EE /* Pods_PayFlowTests.framework */; };
+		C80796D9C7BA8ACEAF51943E /* Pods_PayFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04616715EDDB9CC22C4A4543 /* Pods_PayFlow.framework */; };
+		E66F3679115E471EE72C9090 /* Pods_PayFlow_PayFlowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5959C6FD522EC18726304C /* Pods_PayFlow_PayFlowUITests.framework */; };
+		F351C1F4274E7DDC00D1BFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C1F3274E7DDC00D1BFE9 /* AppDelegate.swift */; };
+		F351C1F6274E7DDC00D1BFE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C1F5274E7DDC00D1BFE9 /* SceneDelegate.swift */; };
+		F351C1FD274E7DE100D1BFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F351C1FC274E7DE100D1BFE9 /* Assets.xcassets */; };
+		F351C200274E7DE100D1BFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F351C1FE274E7DE100D1BFE9 /* LaunchScreen.storyboard */; };
+		F351C20B274E7DE100D1BFE9 /* PayFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C20A274E7DE100D1BFE9 /* PayFlowTests.swift */; };
+		F351C216274E7DE100D1BFE9 /* PayFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C215274E7DE100D1BFE9 /* PayFlowUITests.swift */; };
+		F351C22B274E7F5800D1BFE9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C22A274E7F5800D1BFE9 /* Extensions.swift */; };
+		F351C230274E7F6C00D1BFE9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C22F274E7F6C00D1BFE9 /* Utilities.swift */; };
+		F351C235274E7F8000D1BFE9 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C234274E7F8000D1BFE9 /* Register.swift */; };
+		F351C23A274E7F8B00D1BFE9 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C239274E7F8B00D1BFE9 /* Bill.swift */; };
+		F351C258274E853600D1BFE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F351C257274E853600D1BFE9 /* GoogleService-Info.plist */; };
+		F379AED7274FA355009F80C7 /* BillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AED6274FA355009F80C7 /* BillCell.swift */; };
+		F379AEDC274FA406009F80C7 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEDB274FA406009F80C7 /* ProfileVC.swift */; };
+		F379AEE1274FA457009F80C7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEE0274FA457009F80C7 /* ProfileView.swift */; };
+		F379AEE6274FA6A3009F80C7 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEE5274FA6A3009F80C7 /* TabBarVC.swift */; };
+		F379AEEE274FA738009F80C7 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEED274FA738009F80C7 /* InitialView.swift */; };
+		F379AEF3274FA74D009F80C7 /* InitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEF2274FA74D009F80C7 /* InitialVC.swift */; };
+		F379AEF8274FA8ED009F80C7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEF7274FA8ED009F80C7 /* LoginView.swift */; };
+		F379AEFD274FA904009F80C7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEFC274FA904009F80C7 /* LoginVC.swift */; };
+		F379AF02274FA913009F80C7 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF01274FA913009F80C7 /* LoginVM.swift */; };
+		F379AF07274FAB65009F80C7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF06274FAB65009F80C7 /* SignUpView.swift */; };
+		F379AF0C274FAB79009F80C7 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF0B274FAB79009F80C7 /* SignUpVC.swift */; };
+		F379AF11274FAB87009F80C7 /* SignUpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF10274FAB87009F80C7 /* SignUpVM.swift */; };
+		F379AF16274FACC6009F80C7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF15274FACC6009F80C7 /* HomeView.swift */; };
+		F379AF1B274FACD8009F80C7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF1A274FACD8009F80C7 /* HomeVC.swift */; };
+		F379AF20274FACE5009F80C7 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF1F274FACE5009F80C7 /* HomeVM.swift */; };
+		F379AF25274FAF4F009F80C7 /* ExtractorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF24274FAF4F009F80C7 /* ExtractorView.swift */; };
+		F379AF2A274FAF5F009F80C7 /* ExtractorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF29274FAF5F009F80C7 /* ExtractorVC.swift */; };
+		F379AF2F274FAF6C009F80C7 /* ExtractorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF2E274FAF6C009F80C7 /* ExtractorVM.swift */; };
+		F379AF34274FB067009F80C7 /* RegisterBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF33274FB067009F80C7 /* RegisterBillView.swift */; };
+		F379AF39274FB077009F80C7 /* RegisterBillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF38274FB077009F80C7 /* RegisterBillVC.swift */; };
+		F379AF3E274FB083009F80C7 /* RegisterBillVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF3D274FB083009F80C7 /* RegisterBillVM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F351C207274E7DE100D1BFE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F351C1E8274E7DDC00D1BFE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F351C1EF274E7DDC00D1BFE9;
+			remoteInfo = PayFlow;
+		};
+		F351C212274E7DE100D1BFE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F351C1E8274E7DDC00D1BFE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F351C1EF274E7DDC00D1BFE9;
+			remoteInfo = PayFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04616715EDDB9CC22C4A4543 /* Pods_PayFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5959C6FD522EC18726304C /* Pods_PayFlow_PayFlowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayFlow_PayFlowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A30ED2C7868B783C6C9A7EE /* Pods_PayFlowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayFlowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		269E138375DE34DF14FEE91C /* Pods-PayFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFlow.debug.xcconfig"; path = "Target Support Files/Pods-PayFlow/Pods-PayFlow.debug.xcconfig"; sourceTree = "<group>"; };
+		3CABA754708D678BDA45F789 /* Pods-PayFlow-PayFlowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFlow-PayFlowUITests.debug.xcconfig"; path = "Target Support Files/Pods-PayFlow-PayFlowUITests/Pods-PayFlow-PayFlowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BD2A21B7DAA7261903B7E8F /* Pods-PayFlowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFlowTests.debug.xcconfig"; path = "Target Support Files/Pods-PayFlowTests/Pods-PayFlowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3696C3913B4553C4DDED779 /* Pods-PayFlow-PayFlowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFlow-PayFlowUITests.release.xcconfig"; path = "Target Support Files/Pods-PayFlow-PayFlowUITests/Pods-PayFlow-PayFlowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBD660150A3A1373D6832381 /* Pods-PayFlowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFlowTests.release.xcconfig"; path = "Target Support Files/Pods-PayFlowTests/Pods-PayFlowTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6CCD11D1DA69B0F68D4CEBF /* Pods-PayFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFlow.release.xcconfig"; path = "Target Support Files/Pods-PayFlow/Pods-PayFlow.release.xcconfig"; sourceTree = "<group>"; };
+		F351C1F0274E7DDC00D1BFE9 /* PayFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F351C1F3274E7DDC00D1BFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F351C1F5274E7DDC00D1BFE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F351C1FC274E7DE100D1BFE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F351C1FF274E7DE100D1BFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F351C201274E7DE100D1BFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F351C206274E7DE100D1BFE9 /* PayFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F351C20A274E7DE100D1BFE9 /* PayFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFlowTests.swift; sourceTree = "<group>"; };
+		F351C20C274E7DE100D1BFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F351C211274E7DE100D1BFE9 /* PayFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F351C215274E7DE100D1BFE9 /* PayFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFlowUITests.swift; sourceTree = "<group>"; };
+		F351C217274E7DE100D1BFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F351C22A274E7F5800D1BFE9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F351C22F274E7F6C00D1BFE9 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		F351C234274E7F8000D1BFE9 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		F351C239274E7F8B00D1BFE9 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		F351C257274E853600D1BFE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F379AED6274FA355009F80C7 /* BillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCell.swift; sourceTree = "<group>"; };
+		F379AEDB274FA406009F80C7 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		F379AEE0274FA457009F80C7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F379AEE5274FA6A3009F80C7 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		F379AEED274FA738009F80C7 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		F379AEF2274FA74D009F80C7 /* InitialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialVC.swift; sourceTree = "<group>"; };
+		F379AEF7274FA8ED009F80C7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F379AEFC274FA904009F80C7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F379AF01274FA913009F80C7 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		F379AF06274FAB65009F80C7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		F379AF0B274FAB79009F80C7 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		F379AF10274FAB87009F80C7 /* SignUpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVM.swift; sourceTree = "<group>"; };
+		F379AF15274FACC6009F80C7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F379AF1A274FACD8009F80C7 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F379AF1F274FACE5009F80C7 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		F379AF24274FAF4F009F80C7 /* ExtractorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractorView.swift; sourceTree = "<group>"; };
+		F379AF29274FAF5F009F80C7 /* ExtractorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractorVC.swift; sourceTree = "<group>"; };
+		F379AF2E274FAF6C009F80C7 /* ExtractorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractorVM.swift; sourceTree = "<group>"; };
+		F379AF33274FB067009F80C7 /* RegisterBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterBillView.swift; sourceTree = "<group>"; };
+		F379AF38274FB077009F80C7 /* RegisterBillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterBillVC.swift; sourceTree = "<group>"; };
+		F379AF3D274FB083009F80C7 /* RegisterBillVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterBillVM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F351C1ED274E7DDC00D1BFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80796D9C7BA8ACEAF51943E /* Pods_PayFlow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F351C203274E7DE100D1BFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057E0DB682EDE1377B8B5C69 /* Pods_PayFlowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F351C20E274E7DE100D1BFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66F3679115E471EE72C9090 /* Pods_PayFlow_PayFlowUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69302FA7530AC87666AA3124 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				269E138375DE34DF14FEE91C /* Pods-PayFlow.debug.xcconfig */,
+				C6CCD11D1DA69B0F68D4CEBF /* Pods-PayFlow.release.xcconfig */,
+				3CABA754708D678BDA45F789 /* Pods-PayFlow-PayFlowUITests.debug.xcconfig */,
+				B3696C3913B4553C4DDED779 /* Pods-PayFlow-PayFlowUITests.release.xcconfig */,
+				6BD2A21B7DAA7261903B7E8F /* Pods-PayFlowTests.debug.xcconfig */,
+				BBD660150A3A1373D6832381 /* Pods-PayFlowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ECA95833E6446E5FA4151C42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04616715EDDB9CC22C4A4543 /* Pods_PayFlow.framework */,
+				0B5959C6FD522EC18726304C /* Pods_PayFlow_PayFlowUITests.framework */,
+				1A30ED2C7868B783C6C9A7EE /* Pods_PayFlowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F351C1E7274E7DDC00D1BFE9 = {
+			isa = PBXGroup;
+			children = (
+				F351C1F2274E7DDC00D1BFE9 /* PayFlow */,
+				F351C209274E7DE100D1BFE9 /* PayFlowTests */,
+				F351C214274E7DE100D1BFE9 /* PayFlowUITests */,
+				F351C1F1274E7DDC00D1BFE9 /* Products */,
+				69302FA7530AC87666AA3124 /* Pods */,
+				ECA95833E6446E5FA4151C42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F351C1F1274E7DDC00D1BFE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F351C1F0274E7DDC00D1BFE9 /* PayFlow.app */,
+				F351C206274E7DE100D1BFE9 /* PayFlowTests.xctest */,
+				F351C211274E7DE100D1BFE9 /* PayFlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F351C1F2274E7DDC00D1BFE9 /* PayFlow */ = {
+			isa = PBXGroup;
+			children = (
+				F351C229274E7EA500D1BFE9 /* Application */,
+				F351C228274E7E9E00D1BFE9 /* Resources */,
+				F351C227274E7E9600D1BFE9 /* Models */,
+				F351C226274E7E8D00D1BFE9 /* Scenes */,
+				F351C201274E7DE100D1BFE9 /* Info.plist */,
+				F351C257274E853600D1BFE9 /* GoogleService-Info.plist */,
+			);
+			path = PayFlow;
+			sourceTree = "<group>";
+		};
+		F351C209274E7DE100D1BFE9 /* PayFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				F351C20A274E7DE100D1BFE9 /* PayFlowTests.swift */,
+				F351C20C274E7DE100D1BFE9 /* Info.plist */,
+			);
+			path = PayFlowTests;
+			sourceTree = "<group>";
+		};
+		F351C214274E7DE100D1BFE9 /* PayFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F351C215274E7DE100D1BFE9 /* PayFlowUITests.swift */,
+				F351C217274E7DE100D1BFE9 /* Info.plist */,
+			);
+			path = PayFlowUITests;
+			sourceTree = "<group>";
+		};
+		F351C226274E7E8D00D1BFE9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F351C241274E80C600D1BFE9 /* Launch */,
+				F351C240274E80C000D1BFE9 /* Shared */,
+				F351C23F274E80BB00D1BFE9 /* Public */,
+				F351C23E274E80AA00D1BFE9 /* Authenticated */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F351C227274E7E9600D1BFE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F351C234274E7F8000D1BFE9 /* Register.swift */,
+				F351C239274E7F8B00D1BFE9 /* Bill.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F351C228274E7E9E00D1BFE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F351C22A274E7F5800D1BFE9 /* Extensions.swift */,
+				F351C22F274E7F6C00D1BFE9 /* Utilities.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F351C229274E7EA500D1BFE9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F351C1F3274E7DDC00D1BFE9 /* AppDelegate.swift */,
+				F351C1F5274E7DDC00D1BFE9 /* SceneDelegate.swift */,
+				F351C1FC274E7DE100D1BFE9 /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F351C23E274E80AA00D1BFE9 /* Authenticated */ = {
+			isa = PBXGroup;
+			children = (
+				F351C24A274E83B600D1BFE9 /* Home */,
+				F351C249274E83AC00D1BFE9 /* RegisterBill */,
+				F351C248274E83A500D1BFE9 /* Extractor */,
+			);
+			path = Authenticated;
+			sourceTree = "<group>";
+		};
+		F351C23F274E80BB00D1BFE9 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F351C247274E839600D1BFE9 /* Initial */,
+				F351C246274E838F00D1BFE9 /* Login */,
+				F351C245274E838500D1BFE9 /* SignUp */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		F351C240274E80C000D1BFE9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F351C244274E837200D1BFE9 /* Table Cell */,
+				F351C243274E836B00D1BFE9 /* Header */,
+				F351C242274E835700D1BFE9 /* TabsNavigation */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F351C241274E80C600D1BFE9 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				F351C1FE274E7DE100D1BFE9 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		F351C242274E835700D1BFE9 /* TabsNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				F379AEE5274FA6A3009F80C7 /* TabBarVC.swift */,
+			);
+			path = TabsNavigation;
+			sourceTree = "<group>";
+		};
+		F351C243274E836B00D1BFE9 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F379AEE0274FA457009F80C7 /* ProfileView.swift */,
+				F379AEDB274FA406009F80C7 /* ProfileVC.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F351C244274E837200D1BFE9 /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F379AED6274FA355009F80C7 /* BillCell.swift */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
+		F351C245274E838500D1BFE9 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF06274FAB65009F80C7 /* SignUpView.swift */,
+				F379AF0B274FAB79009F80C7 /* SignUpVC.swift */,
+				F379AF10274FAB87009F80C7 /* SignUpVM.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		F351C246274E838F00D1BFE9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F379AEF7274FA8ED009F80C7 /* LoginView.swift */,
+				F379AEFC274FA904009F80C7 /* LoginVC.swift */,
+				F379AF01274FA913009F80C7 /* LoginVM.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F351C247274E839600D1BFE9 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				F379AEED274FA738009F80C7 /* InitialView.swift */,
+				F379AEF2274FA74D009F80C7 /* InitialVC.swift */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		F351C248274E83A500D1BFE9 /* Extractor */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF24274FAF4F009F80C7 /* ExtractorView.swift */,
+				F379AF29274FAF5F009F80C7 /* ExtractorVC.swift */,
+				F379AF2E274FAF6C009F80C7 /* ExtractorVM.swift */,
+			);
+			path = Extractor;
+			sourceTree = "<group>";
+		};
+		F351C249274E83AC00D1BFE9 /* RegisterBill */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF33274FB067009F80C7 /* RegisterBillView.swift */,
+				F379AF38274FB077009F80C7 /* RegisterBillVC.swift */,
+				F379AF3D274FB083009F80C7 /* RegisterBillVM.swift */,
+			);
+			path = RegisterBill;
+			sourceTree = "<group>";
+		};
+		F351C24A274E83B600D1BFE9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF15274FACC6009F80C7 /* HomeView.swift */,
+				F379AF1A274FACD8009F80C7 /* HomeVC.swift */,
+				F379AF1F274FACE5009F80C7 /* HomeVM.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F351C1EF274E7DDC00D1BFE9 /* PayFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F351C21A274E7DE100D1BFE9 /* Build configuration list for PBXNativeTarget "PayFlow" */;
+			buildPhases = (
+				76A3F1CA0B73F137088163A5 /* [CP] Check Pods Manifest.lock */,
+				F351C1EC274E7DDC00D1BFE9 /* Sources */,
+				F351C1ED274E7DDC00D1BFE9 /* Frameworks */,
+				F351C1EE274E7DDC00D1BFE9 /* Resources */,
+				CE2436CAD280EA01D8025DE3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayFlow;
+			productName = PayFlow;
+			productReference = F351C1F0274E7DDC00D1BFE9 /* PayFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F351C205274E7DE100D1BFE9 /* PayFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F351C21D274E7DE100D1BFE9 /* Build configuration list for PBXNativeTarget "PayFlowTests" */;
+			buildPhases = (
+				638CDEF8E653B57DEB58E94F /* [CP] Check Pods Manifest.lock */,
+				F351C202274E7DE100D1BFE9 /* Sources */,
+				F351C203274E7DE100D1BFE9 /* Frameworks */,
+				F351C204274E7DE100D1BFE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F351C208274E7DE100D1BFE9 /* PBXTargetDependency */,
+			);
+			name = PayFlowTests;
+			productName = PayFlowTests;
+			productReference = F351C206274E7DE100D1BFE9 /* PayFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F351C210274E7DE100D1BFE9 /* PayFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F351C220274E7DE100D1BFE9 /* Build configuration list for PBXNativeTarget "PayFlowUITests" */;
+			buildPhases = (
+				BC441FA1D6D5FC975B722706 /* [CP] Check Pods Manifest.lock */,
+				F351C20D274E7DE100D1BFE9 /* Sources */,
+				F351C20E274E7DE100D1BFE9 /* Frameworks */,
+				F351C20F274E7DE100D1BFE9 /* Resources */,
+				6455A7C535C731AC539EF593 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F351C213274E7DE100D1BFE9 /* PBXTargetDependency */,
+			);
+			name = PayFlowUITests;
+			productName = PayFlowUITests;
+			productReference = F351C211274E7DE100D1BFE9 /* PayFlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F351C1E8274E7DDC00D1BFE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					F351C1EF274E7DDC00D1BFE9 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					F351C205274E7DE100D1BFE9 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = F351C1EF274E7DDC00D1BFE9;
+					};
+					F351C210274E7DE100D1BFE9 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = F351C1EF274E7DDC00D1BFE9;
+					};
+				};
+			};
+			buildConfigurationList = F351C1EB274E7DDC00D1BFE9 /* Build configuration list for PBXProject "PayFlow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F351C1E7274E7DDC00D1BFE9;
+			productRefGroup = F351C1F1274E7DDC00D1BFE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F351C1EF274E7DDC00D1BFE9 /* PayFlow */,
+				F351C205274E7DE100D1BFE9 /* PayFlowTests */,
+				F351C210274E7DE100D1BFE9 /* PayFlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F351C1EE274E7DDC00D1BFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F351C200274E7DE100D1BFE9 /* LaunchScreen.storyboard in Resources */,
+				F351C1FD274E7DE100D1BFE9 /* Assets.xcassets in Resources */,
+				F351C258274E853600D1BFE9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F351C204274E7DE100D1BFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F351C20F274E7DE100D1BFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		638CDEF8E653B57DEB58E94F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayFlowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6455A7C535C731AC539EF593 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayFlow-PayFlowUITests/Pods-PayFlow-PayFlowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayFlow-PayFlowUITests/Pods-PayFlow-PayFlowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayFlow-PayFlowUITests/Pods-PayFlow-PayFlowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76A3F1CA0B73F137088163A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayFlow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC441FA1D6D5FC975B722706 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayFlow-PayFlowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE2436CAD280EA01D8025DE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayFlow/Pods-PayFlow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayFlow/Pods-PayFlow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayFlow/Pods-PayFlow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F351C1EC274E7DDC00D1BFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F379AF39274FB077009F80C7 /* RegisterBillVC.swift in Sources */,
+				F379AEEE274FA738009F80C7 /* InitialView.swift in Sources */,
+				F379AF2A274FAF5F009F80C7 /* ExtractorVC.swift in Sources */,
+				F379AF1B274FACD8009F80C7 /* HomeVC.swift in Sources */,
+				F351C235274E7F8000D1BFE9 /* Register.swift in Sources */,
+				F379AEFD274FA904009F80C7 /* LoginVC.swift in Sources */,
+				F379AEE1274FA457009F80C7 /* ProfileView.swift in Sources */,
+				F379AEE6274FA6A3009F80C7 /* TabBarVC.swift in Sources */,
+				F351C1F4274E7DDC00D1BFE9 /* AppDelegate.swift in Sources */,
+				F351C1F6274E7DDC00D1BFE9 /* SceneDelegate.swift in Sources */,
+				F351C23A274E7F8B00D1BFE9 /* Bill.swift in Sources */,
+				F379AF20274FACE5009F80C7 /* HomeVM.swift in Sources */,
+				F379AEDC274FA406009F80C7 /* ProfileVC.swift in Sources */,
+				F379AF25274FAF4F009F80C7 /* ExtractorView.swift in Sources */,
+				F379AF3E274FB083009F80C7 /* RegisterBillVM.swift in Sources */,
+				F351C230274E7F6C00D1BFE9 /* Utilities.swift in Sources */,
+				F379AF11274FAB87009F80C7 /* SignUpVM.swift in Sources */,
+				F379AEF3274FA74D009F80C7 /* InitialVC.swift in Sources */,
+				F379AEF8274FA8ED009F80C7 /* LoginView.swift in Sources */,
+				F379AF07274FAB65009F80C7 /* SignUpView.swift in Sources */,
+				F379AED7274FA355009F80C7 /* BillCell.swift in Sources */,
+				F379AF2F274FAF6C009F80C7 /* ExtractorVM.swift in Sources */,
+				F351C22B274E7F5800D1BFE9 /* Extensions.swift in Sources */,
+				F379AF34274FB067009F80C7 /* RegisterBillView.swift in Sources */,
+				F379AF02274FA913009F80C7 /* LoginVM.swift in Sources */,
+				F379AF0C274FAB79009F80C7 /* SignUpVC.swift in Sources */,
+				F379AF16274FACC6009F80C7 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F351C202274E7DE100D1BFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F351C20B274E7DE100D1BFE9 /* PayFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F351C20D274E7DE100D1BFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F351C216274E7DE100D1BFE9 /* PayFlowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F351C208274E7DE100D1BFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F351C1EF274E7DDC00D1BFE9 /* PayFlow */;
+			targetProxy = F351C207274E7DE100D1BFE9 /* PBXContainerItemProxy */;
+		};
+		F351C213274E7DE100D1BFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F351C1EF274E7DDC00D1BFE9 /* PayFlow */;
+			targetProxy = F351C212274E7DE100D1BFE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F351C1FE274E7DE100D1BFE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F351C1FF274E7DE100D1BFE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F351C218274E7DE100D1BFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F351C219274E7DE100D1BFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F351C21B274E7DE100D1BFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269E138375DE34DF14FEE91C /* Pods-PayFlow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F351C21C274E7DE100D1BFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CCD11D1DA69B0F68D4CEBF /* Pods-PayFlow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F351C21E274E7DE100D1BFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD2A21B7DAA7261903B7E8F /* Pods-PayFlowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayFlowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayFlow.app/PayFlow";
+			};
+			name = Debug;
+		};
+		F351C21F274E7DE100D1BFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD660150A3A1373D6832381 /* Pods-PayFlowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayFlowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayFlow.app/PayFlow";
+			};
+			name = Release;
+		};
+		F351C221274E7DE100D1BFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CABA754708D678BDA45F789 /* Pods-PayFlow-PayFlowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayFlow;
+			};
+			name = Debug;
+		};
+		F351C222274E7DE100D1BFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3696C3913B4553C4DDED779 /* Pods-PayFlow-PayFlowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayFlow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F351C1EB274E7DDC00D1BFE9 /* Build configuration list for PBXProject "PayFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F351C218274E7DE100D1BFE9 /* Debug */,
+				F351C219274E7DE100D1BFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F351C21A274E7DE100D1BFE9 /* Build configuration list for PBXNativeTarget "PayFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F351C21B274E7DE100D1BFE9 /* Debug */,
+				F351C21C274E7DE100D1BFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F351C21D274E7DE100D1BFE9 /* Build configuration list for PBXNativeTarget "PayFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F351C21E274E7DE100D1BFE9 /* Debug */,
+				F351C21F274E7DE100D1BFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F351C220274E7DE100D1BFE9 /* Build configuration list for PBXNativeTarget "PayFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F351C221274E7DE100D1BFE9 /* Debug */,
+				F351C222274E7DE100D1BFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F351C1E8274E7DDC00D1BFE9 /* Project object */;
+}
