@@ -17,7 +17,7 @@
 # 🔖 Sobre o Projeto
 
 
-O projeto PayFlow foi desenvolvindo em um evento da Rocketseat o Next Level Week Together 06, no qual o aplicativo foi desenvolvido na Trilha de Flutter. Para fins de estudos em desenvolvimento IOS nativo, utilizei como base a idéia do aplicativo efetuado o clone de suas interfaces e efetuado a criação de criando novas telas é escrevendo suas funcionalidades na linguagem Swift.
+O projeto PayFlow foi desenvolvindo em um evento da Rocketseat o Next Level Week Together 06, no qual o aplicativo foi desenvolvido na Trilha de Flutter. Para fins de estudos em desenvolvimento IOS nativo, utilizei como base a idéia do aplicativo efetuado o clone de suas interfaces e efetuado a criação de  novas telas é escrevendo suas funcionalidades na linguagem Swift.
 
 
 
