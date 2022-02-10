@@ -18,7 +18,6 @@
 		F351C216274E7DE100D1BFE9 /* PayFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C215274E7DE100D1BFE9 /* PayFlowUITests.swift */; };
 		F351C22B274E7F5800D1BFE9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C22A274E7F5800D1BFE9 /* Extensions.swift */; };
 		F351C230274E7F6C00D1BFE9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C22F274E7F6C00D1BFE9 /* Utilities.swift */; };
-		F351C235274E7F8000D1BFE9 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C234274E7F8000D1BFE9 /* Register.swift */; };
 		F351C23A274E7F8B00D1BFE9 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F351C239274E7F8B00D1BFE9 /* Bill.swift */; };
 		F351C258274E853600D1BFE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F351C257274E853600D1BFE9 /* GoogleService-Info.plist */; };
 		F379AED7274FA355009F80C7 /* BillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AED6274FA355009F80C7 /* BillCell.swift */; };
@@ -26,22 +25,23 @@
 		F379AEE1274FA457009F80C7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEE0274FA457009F80C7 /* ProfileView.swift */; };
 		F379AEE6274FA6A3009F80C7 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEE5274FA6A3009F80C7 /* TabBarVC.swift */; };
 		F379AEEE274FA738009F80C7 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEED274FA738009F80C7 /* InitialView.swift */; };
-		F379AEF3274FA74D009F80C7 /* InitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEF2274FA74D009F80C7 /* InitialVC.swift */; };
+		F379AEF3274FA74D009F80C7 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEF2274FA74D009F80C7 /* InitialViewController.swift */; };
 		F379AEF8274FA8ED009F80C7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEF7274FA8ED009F80C7 /* LoginView.swift */; };
-		F379AEFD274FA904009F80C7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEFC274FA904009F80C7 /* LoginVC.swift */; };
-		F379AF02274FA913009F80C7 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF01274FA913009F80C7 /* LoginVM.swift */; };
+		F379AEFD274FA904009F80C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AEFC274FA904009F80C7 /* LoginViewController.swift */; };
+		F379AF02274FA913009F80C7 /* LoginLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF01274FA913009F80C7 /* LoginLoginViewModel.swift */; };
 		F379AF07274FAB65009F80C7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF06274FAB65009F80C7 /* SignUpView.swift */; };
-		F379AF0C274FAB79009F80C7 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF0B274FAB79009F80C7 /* SignUpVC.swift */; };
-		F379AF11274FAB87009F80C7 /* SignUpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF10274FAB87009F80C7 /* SignUpVM.swift */; };
+		F379AF0C274FAB79009F80C7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF0B274FAB79009F80C7 /* SignUpViewController.swift */; };
+		F379AF11274FAB87009F80C7 /* SignUpSignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF10274FAB87009F80C7 /* SignUpSignUpViewModel.swift */; };
 		F379AF16274FACC6009F80C7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF15274FACC6009F80C7 /* HomeView.swift */; };
-		F379AF1B274FACD8009F80C7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF1A274FACD8009F80C7 /* HomeVC.swift */; };
-		F379AF20274FACE5009F80C7 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF1F274FACE5009F80C7 /* HomeVM.swift */; };
+		F379AF1B274FACD8009F80C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF1A274FACD8009F80C7 /* HomeViewController.swift */; };
+		F379AF20274FACE5009F80C7 /* HomeHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF1F274FACE5009F80C7 /* HomeHomeViewModel.swift */; };
 		F379AF25274FAF4F009F80C7 /* ExtractorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF24274FAF4F009F80C7 /* ExtractorView.swift */; };
-		F379AF2A274FAF5F009F80C7 /* ExtractorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF29274FAF5F009F80C7 /* ExtractorVC.swift */; };
-		F379AF2F274FAF6C009F80C7 /* ExtractorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF2E274FAF6C009F80C7 /* ExtractorVM.swift */; };
+		F379AF2A274FAF5F009F80C7 /* ExtractorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF29274FAF5F009F80C7 /* ExtractorViewController.swift */; };
+		F379AF2F274FAF6C009F80C7 /* ExtractorExtractorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF2E274FAF6C009F80C7 /* ExtractorExtractorViewModel.swift */; };
 		F379AF34274FB067009F80C7 /* RegisterBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF33274FB067009F80C7 /* RegisterBillView.swift */; };
-		F379AF39274FB077009F80C7 /* RegisterBillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF38274FB077009F80C7 /* RegisterBillVC.swift */; };
-		F379AF3E274FB083009F80C7 /* RegisterBillVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF3D274FB083009F80C7 /* RegisterBillVM.swift */; };
+		F379AF39274FB077009F80C7 /* RegisterBillRegisterBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF38274FB077009F80C7 /* RegisterBillRegisterBillViewController.swift */; };
+		F379AF3E274FB083009F80C7 /* RegisterBillRegisterBillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F379AF3D274FB083009F80C7 /* RegisterBillRegisterBillViewModel.swift */; };
+		F3A0DAA827B54C6C00E39470 /* RegisterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A0DAA727B54C6C00E39470 /* RegisterUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +85,6 @@
 		F351C217274E7DE100D1BFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F351C22A274E7F5800D1BFE9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F351C22F274E7F6C00D1BFE9 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		F351C234274E7F8000D1BFE9 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		F351C239274E7F8B00D1BFE9 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		F351C257274E853600D1BFE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F379AED6274FA355009F80C7 /* BillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCell.swift; sourceTree = "<group>"; };
@@ -93,22 +92,23 @@
 		F379AEE0274FA457009F80C7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F379AEE5274FA6A3009F80C7 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		F379AEED274FA738009F80C7 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
-		F379AEF2274FA74D009F80C7 /* InitialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialVC.swift; sourceTree = "<group>"; };
+		F379AEF2274FA74D009F80C7 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		F379AEF7274FA8ED009F80C7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		F379AEFC274FA904009F80C7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		F379AF01274FA913009F80C7 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		F379AEFC274FA904009F80C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F379AF01274FA913009F80C7 /* LoginLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLoginViewModel.swift; sourceTree = "<group>"; };
 		F379AF06274FAB65009F80C7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
-		F379AF0B274FAB79009F80C7 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
-		F379AF10274FAB87009F80C7 /* SignUpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVM.swift; sourceTree = "<group>"; };
+		F379AF0B274FAB79009F80C7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F379AF10274FAB87009F80C7 /* SignUpSignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSignUpViewModel.swift; sourceTree = "<group>"; };
 		F379AF15274FACC6009F80C7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		F379AF1A274FACD8009F80C7 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		F379AF1F274FACE5009F80C7 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		F379AF1A274FACD8009F80C7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F379AF1F274FACE5009F80C7 /* HomeHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHomeViewModel.swift; sourceTree = "<group>"; };
 		F379AF24274FAF4F009F80C7 /* ExtractorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractorView.swift; sourceTree = "<group>"; };
-		F379AF29274FAF5F009F80C7 /* ExtractorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractorVC.swift; sourceTree = "<group>"; };
-		F379AF2E274FAF6C009F80C7 /* ExtractorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractorVM.swift; sourceTree = "<group>"; };
+		F379AF29274FAF5F009F80C7 /* ExtractorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractorViewController.swift; sourceTree = "<group>"; };
+		F379AF2E274FAF6C009F80C7 /* ExtractorExtractorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractorExtractorViewModel.swift; sourceTree = "<group>"; };
 		F379AF33274FB067009F80C7 /* RegisterBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterBillView.swift; sourceTree = "<group>"; };
-		F379AF38274FB077009F80C7 /* RegisterBillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterBillVC.swift; sourceTree = "<group>"; };
-		F379AF3D274FB083009F80C7 /* RegisterBillVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterBillVM.swift; sourceTree = "<group>"; };
+		F379AF38274FB077009F80C7 /* RegisterBillRegisterBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterBillRegisterBillViewController.swift; sourceTree = "<group>"; };
+		F379AF3D274FB083009F80C7 /* RegisterBillRegisterBillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterBillRegisterBillViewModel.swift; sourceTree = "<group>"; };
+		F3A0DAA727B54C6C00E39470 /* RegisterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,8 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				F351C229274E7EA500D1BFE9 /* Application */,
-				F351C228274E7E9E00D1BFE9 /* Resources */,
-				F351C227274E7E9600D1BFE9 /* Models */,
+				F3A0DAED27B550B100E39470 /* CoordinatorMain */,
+				F3A0DAEB27B5508000E39470 /* Utils */,
 				F351C226274E7E8D00D1BFE9 /* Scenes */,
 				F351C201274E7DE100D1BFE9 /* Info.plist */,
 				F351C257274E853600D1BFE9 /* GoogleService-Info.plist */,
@@ -224,24 +224,6 @@
 				F351C23E274E80AA00D1BFE9 /* Authenticated */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		F351C227274E7E9600D1BFE9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				F351C234274E7F8000D1BFE9 /* Register.swift */,
-				F351C239274E7F8B00D1BFE9 /* Bill.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		F351C228274E7E9E00D1BFE9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F351C22A274E7F5800D1BFE9 /* Extensions.swift */,
-				F351C22F274E7F6C00D1BFE9 /* Utilities.swift */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		F351C229274E7EA500D1BFE9 /* Application */ = {
@@ -320,9 +302,11 @@
 		F351C245274E838500D1BFE9 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
-				F379AF06274FAB65009F80C7 /* SignUpView.swift */,
-				F379AF0B274FAB79009F80C7 /* SignUpVC.swift */,
-				F379AF10274FAB87009F80C7 /* SignUpVM.swift */,
+				F3A0DAA627B54C1200E39470 /* Model */,
+				F3A0DAA527B54C0B00E39470 /* Network */,
+				F3A0DAA427B54C0400E39470 /* ViewModel */,
+				F3A0DAA327B54BFE00E39470 /* View */,
+				F3A0DAA227B54BF700E39470 /* Coordinator */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -330,9 +314,11 @@
 		F351C246274E838F00D1BFE9 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				F379AEF7274FA8ED009F80C7 /* LoginView.swift */,
-				F379AEFC274FA904009F80C7 /* LoginVC.swift */,
-				F379AF01274FA913009F80C7 /* LoginVM.swift */,
+				F3A0DA9B27B54AF100E39470 /* Model */,
+				F3A0DA9C27B54B1800E39470 /* Network */,
+				F3A0DA9D27B54B2300E39470 /* ViewModel */,
+				F3A0DA9A27B54AE000E39470 /* View */,
+				F3A0DA9E27B54B3000E39470 /* Coordinator */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -340,8 +326,8 @@
 		F351C247274E839600D1BFE9 /* Initial */ = {
 			isa = PBXGroup;
 			children = (
-				F379AEED274FA738009F80C7 /* InitialView.swift */,
-				F379AEF2274FA74D009F80C7 /* InitialVC.swift */,
+				F3A0DA9927B54A8F00E39470 /* Coordinator */,
+				F3A0DA9527B54A3200E39470 /* View */,
 			);
 			path = Initial;
 			sourceTree = "<group>";
@@ -349,9 +335,11 @@
 		F351C248274E83A500D1BFE9 /* Extractor */ = {
 			isa = PBXGroup;
 			children = (
-				F379AF24274FAF4F009F80C7 /* ExtractorView.swift */,
-				F379AF29274FAF5F009F80C7 /* ExtractorVC.swift */,
-				F379AF2E274FAF6C009F80C7 /* ExtractorVM.swift */,
+				F3A0DAD527B54DEB00E39470 /* Model */,
+				F3A0DAD427B54DE400E39470 /* Network */,
+				F3A0DAD327B54DDE00E39470 /* ViewModel */,
+				F3A0DAD227B54DD900E39470 /* View */,
+				F3A0DAD127B54DD300E39470 /* Coordinator */,
 			);
 			path = Extractor;
 			sourceTree = "<group>";
@@ -359,9 +347,11 @@
 		F351C249274E83AC00D1BFE9 /* RegisterBill */ = {
 			isa = PBXGroup;
 			children = (
-				F379AF33274FB067009F80C7 /* RegisterBillView.swift */,
-				F379AF38274FB077009F80C7 /* RegisterBillVC.swift */,
-				F379AF3D274FB083009F80C7 /* RegisterBillVM.swift */,
+				F3A0DAD027B54DCB00E39470 /* Model */,
+				F3A0DACF27B54DC400E39470 /* Network */,
+				F3A0DACE27B54DBF00E39470 /* ViewModel */,
+				F3A0DACD27B54DBA00E39470 /* View */,
+				F3A0DACC27B54DB400E39470 /* Coordinator */,
 			);
 			path = RegisterBill;
 			sourceTree = "<group>";
@@ -369,11 +359,237 @@
 		F351C24A274E83B600D1BFE9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				F379AF15274FACC6009F80C7 /* HomeView.swift */,
-				F379AF1A274FACD8009F80C7 /* HomeVC.swift */,
-				F379AF1F274FACE5009F80C7 /* HomeVM.swift */,
+				F3A0DACB27B54DA800E39470 /* Model */,
+				F3A0DACA27B54DA100E39470 /* Network */,
+				F3A0DAC927B54D9B00E39470 /* ViewModel */,
+				F3A0DAC827B54D9500E39470 /* View */,
+				F3A0DAC727B54D8D00E39470 /* Coordinator */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		F3A0DA9527B54A3200E39470 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F379AEED274FA738009F80C7 /* InitialView.swift */,
+				F379AEF2274FA74D009F80C7 /* InitialViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A0DA9927B54A8F00E39470 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F3A0DA9A27B54AE000E39470 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F379AEF7274FA8ED009F80C7 /* LoginView.swift */,
+				F379AEFC274FA904009F80C7 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A0DA9B27B54AF100E39470 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3A0DA9C27B54B1800E39470 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F3A0DA9D27B54B2300E39470 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF01274FA913009F80C7 /* LoginLoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3A0DA9E27B54B3000E39470 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F3A0DAA227B54BF700E39470 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F3A0DAA327B54BFE00E39470 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF06274FAB65009F80C7 /* SignUpView.swift */,
+				F379AF0B274FAB79009F80C7 /* SignUpViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A0DAA427B54C0400E39470 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF10274FAB87009F80C7 /* SignUpSignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3A0DAA527B54C0B00E39470 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F3A0DAA627B54C1200E39470 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0DAA727B54C6C00E39470 /* RegisterUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3A0DAC727B54D8D00E39470 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F3A0DAC827B54D9500E39470 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF15274FACC6009F80C7 /* HomeView.swift */,
+				F379AF1A274FACD8009F80C7 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A0DAC927B54D9B00E39470 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF1F274FACE5009F80C7 /* HomeHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3A0DACA27B54DA100E39470 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F3A0DACB27B54DA800E39470 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3A0DACC27B54DB400E39470 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F3A0DACD27B54DBA00E39470 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF33274FB067009F80C7 /* RegisterBillView.swift */,
+				F379AF38274FB077009F80C7 /* RegisterBillRegisterBillViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A0DACE27B54DBF00E39470 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF3D274FB083009F80C7 /* RegisterBillRegisterBillViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3A0DACF27B54DC400E39470 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F3A0DAD027B54DCB00E39470 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F351C239274E7F8B00D1BFE9 /* Bill.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3A0DAD127B54DD300E39470 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F3A0DAD227B54DD900E39470 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF24274FAF4F009F80C7 /* ExtractorView.swift */,
+				F379AF29274FAF5F009F80C7 /* ExtractorViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A0DAD327B54DDE00E39470 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F379AF2E274FAF6C009F80C7 /* ExtractorExtractorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F3A0DAD427B54DE400E39470 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F3A0DAD527B54DEB00E39470 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3A0DAEB27B5508000E39470 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F351C22A274E7F5800D1BFE9 /* Extensions.swift */,
+				F351C22F274E7F6C00D1BFE9 /* Utilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F3A0DAED27B550B100E39470 /* CoordinatorMain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoordinatorMain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -614,32 +830,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F379AF39274FB077009F80C7 /* RegisterBillVC.swift in Sources */,
+				F379AF39274FB077009F80C7 /* RegisterBillRegisterBillViewController.swift in Sources */,
 				F379AEEE274FA738009F80C7 /* InitialView.swift in Sources */,
-				F379AF2A274FAF5F009F80C7 /* ExtractorVC.swift in Sources */,
-				F379AF1B274FACD8009F80C7 /* HomeVC.swift in Sources */,
-				F351C235274E7F8000D1BFE9 /* Register.swift in Sources */,
-				F379AEFD274FA904009F80C7 /* LoginVC.swift in Sources */,
+				F379AF2A274FAF5F009F80C7 /* ExtractorViewController.swift in Sources */,
+				F379AF1B274FACD8009F80C7 /* HomeViewController.swift in Sources */,
+				F379AEFD274FA904009F80C7 /* LoginViewController.swift in Sources */,
 				F379AEE1274FA457009F80C7 /* ProfileView.swift in Sources */,
 				F379AEE6274FA6A3009F80C7 /* TabBarVC.swift in Sources */,
 				F351C1F4274E7DDC00D1BFE9 /* AppDelegate.swift in Sources */,
 				F351C1F6274E7DDC00D1BFE9 /* SceneDelegate.swift in Sources */,
 				F351C23A274E7F8B00D1BFE9 /* Bill.swift in Sources */,
-				F379AF20274FACE5009F80C7 /* HomeVM.swift in Sources */,
+				F379AF20274FACE5009F80C7 /* HomeHomeViewModel.swift in Sources */,
 				F379AEDC274FA406009F80C7 /* ProfileVC.swift in Sources */,
+				F3A0DAA827B54C6C00E39470 /* RegisterUser.swift in Sources */,
 				F379AF25274FAF4F009F80C7 /* ExtractorView.swift in Sources */,
-				F379AF3E274FB083009F80C7 /* RegisterBillVM.swift in Sources */,
+				F379AF3E274FB083009F80C7 /* RegisterBillRegisterBillViewModel.swift in Sources */,
 				F351C230274E7F6C00D1BFE9 /* Utilities.swift in Sources */,
-				F379AF11274FAB87009F80C7 /* SignUpVM.swift in Sources */,
-				F379AEF3274FA74D009F80C7 /* InitialVC.swift in Sources */,
+				F379AF11274FAB87009F80C7 /* SignUpSignUpViewModel.swift in Sources */,
+				F379AEF3274FA74D009F80C7 /* InitialViewController.swift in Sources */,
 				F379AEF8274FA8ED009F80C7 /* LoginView.swift in Sources */,
 				F379AF07274FAB65009F80C7 /* SignUpView.swift in Sources */,
 				F379AED7274FA355009F80C7 /* BillCell.swift in Sources */,
-				F379AF2F274FAF6C009F80C7 /* ExtractorVM.swift in Sources */,
+				F379AF2F274FAF6C009F80C7 /* ExtractorExtractorViewModel.swift in Sources */,
 				F351C22B274E7F5800D1BFE9 /* Extensions.swift in Sources */,
 				F379AF34274FB067009F80C7 /* RegisterBillView.swift in Sources */,
-				F379AF02274FA913009F80C7 /* LoginVM.swift in Sources */,
-				F379AF0C274FAB79009F80C7 /* SignUpVC.swift in Sources */,
+				F379AF02274FA913009F80C7 /* LoginLoginViewModel.swift in Sources */,
+				F379AF0C274FAB79009F80C7 /* SignUpViewController.swift in Sources */,
 				F379AF16274FACC6009F80C7 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

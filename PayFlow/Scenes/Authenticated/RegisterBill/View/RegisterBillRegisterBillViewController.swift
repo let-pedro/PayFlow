@@ -2,7 +2,7 @@
 
 import UIKit
 
-class RegisterBillVC: UIViewController {
+class RegisterBillViewController: UIViewController {
     
     private var registerBillView: RegisterBillView
     private let viewModel: RegisterBillVM

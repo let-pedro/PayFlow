@@ -2,7 +2,7 @@
 import Foundation
 import Firebase
 
-struct RegisterBillVM {
+struct RegisterBillViewModel {
  
     private let db = Firestore.firestore()
     private let user = Auth.auth().currentUser

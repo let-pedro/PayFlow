@@ -1,7 +1,7 @@
 
 import UIKit
 
-class InitialVC: UIViewController {
+class InitialViewController: UIViewController {
 
     private var initialView: InitialView
     

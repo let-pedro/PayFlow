@@ -4,7 +4,7 @@ import Firebase
 import FirebaseAuth
 
 
-class SignUpVM {
+class SignUpViewModel {
     
     private let db = Firestore.firestore()
 

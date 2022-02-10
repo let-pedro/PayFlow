@@ -2,7 +2,7 @@
 import Foundation
 
 
-public struct Register: Codable {
+struct RegisterUser: Codable {
     let id: String
     let firstName: String
     let lastName: String

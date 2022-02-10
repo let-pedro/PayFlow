@@ -3,7 +3,7 @@ import Foundation
 import FirebaseFirestore
 import FirebaseAuth
 
-struct HomeVM {
+struct HomeViewModel {
     
     private let db = Firestore.firestore()
     private let user = Auth.auth().currentUser

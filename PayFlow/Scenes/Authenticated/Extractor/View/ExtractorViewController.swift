@@ -2,7 +2,7 @@
 import UIKit
 import FirebaseFirestore
 
-class ExtractorVC: UIViewController {
+class ExtractorViewController: UIViewController {
     
     private var extractorView: ExtractorView
     private let viewModel: ExtractorVM

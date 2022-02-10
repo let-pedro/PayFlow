@@ -3,7 +3,7 @@ import Foundation
 import FirebaseAuth
 
 
-struct LoginVM {
+struct LoginViewModel {
     
     
     

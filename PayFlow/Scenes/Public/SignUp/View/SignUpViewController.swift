@@ -1,7 +1,7 @@
 
 import UIKit
 
-class SignUpVC: UIViewController {
+class SignUpViewController: UIViewController {
     
     private var signUpView: SignUpView
     private let viewModel: SignUpVM

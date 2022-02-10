@@ -1,7 +1,7 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class LoginViewController: UIViewController {
     
     private var loginView: LoginView
     private let viewModel: LoginVM

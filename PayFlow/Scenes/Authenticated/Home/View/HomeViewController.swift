@@ -3,7 +3,7 @@ import UIKit
 import FirebaseFirestore
 import FirebaseAuth
 
-class HomeVC: UIViewController {
+class HomeViewController: UIViewController {
     
     private var homeView: HomeView
     private let viewModel: HomeVM

@@ -4,7 +4,7 @@ import Firebase
 import FirebaseAuth
 
 
-struct ExtractorVM {
+struct ExtractorViewModel {
     
     
     private let db = Firestore.firestore()

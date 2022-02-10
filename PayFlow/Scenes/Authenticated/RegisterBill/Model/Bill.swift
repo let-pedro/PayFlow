@@ -2,7 +2,7 @@
 import Foundation
 
 
-public struct Bill: Codable {
+struct Bill: Codable {
     let title: String
     let dueDate: String
     let value: Double
